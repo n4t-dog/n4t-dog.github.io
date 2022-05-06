@@ -7,7 +7,7 @@
           :base-extension "org"
 
           ;; Path to your Jekyll project.
-          :publishing-directory "~/n4t-dog.github.io/site/_posts"
+          :publishing-directory "~/n4t-dog.github.io/docs/_posts"
           :recursive t
           :publishing-function org-html-publish-to-html
           :headline-levels 4
@@ -19,7 +19,7 @@
     ("org-static-n4t"
           :base-directory "~/n4t-dog.github.io/org/_posts"
           :base-extension "css\\|js\\|png\\|jpg\\|gif\\|pdf\\|mp3\\|ogg\\|swf\\|php"
-          :publishing-directory "~/n4t-dog.github.io/site"
+          :publishing-directory "~/n4t-dog.github.io/docs"
           :recursive t
           :publishing-function org-publish-attachment)
 
