@@ -30,7 +30,7 @@ twitter_username: n4t_dog
 github_username:  n4t-dog
 
 # Build settings
-theme: minimal
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
